@@ -1,7 +1,7 @@
 # Market Research on Restaurants in Los Angeles
 
 :point_right: View the **notebook** [here](https://nbviewer.org/github/tpeckerman/practicum_projects/blob/main/Market%20Research/Market%20Research%20on%20Los%20Angeles%20Restaurants.ipynb) using nbviewer.\
-:point_right: View the **presentation** [here].
+:point_right: View the **presentation** [here](https://github.com/tpeckerman/practicum_projects/blob/main/Market%20Research/Robot%20Run%20Caf%C3%A9%20in%20LA.pdf).
 
 ## In this folder
 
@@ -66,8 +66,8 @@ The term "eatery" is used to describe all the businesses in this dataset instead
 - Identificatopm of streets containing only one eatery.
 
 ### Conclusion
-<ins>Type</ins>: The market is not saturated by Cafes which represent between 4% to 18% of the market (the latter when not considering Restaurants). The percentage of the market is around the same for the top 10 streets. While you would be competing with big chains and their heavy resources, the culture trend is moving more towards new age or bohemian specialty cafes. Also, even as the novelty wears off, the convenience of quick service, delicious food, and unique atmosphere would help maintain business.
+1. <ins>Type</ins>: The market is not saturated by Cafes which represent between 4% to 18% of the market (the latter when not considering Restaurants). The percentage of the market is around the same for the top 10 streets. While you would be competing with big chains and their heavy resources, the culture trend is moving more towards new age or bohemian specialty cafes. Also, even as the novelty wears off, the convenience of quick service, delicious food, and unique atmosphere would help maintain business.
 
-<ins>Location</ins>: On one of the top 10 streets as this would be the lowest risk and most visible to the potential consumers.
+2. <ins>Location</ins>: On one of the top 10 streets as this would be the lowest risk and most visible to the potential consumers.
 
-<ins>Number of seats</ins>: Between 20 and 35; 20 because that would be safe and 35 so there is room for growth.
+3. <ins>Number of seats</ins>: Between 20 and 35; 20 because that would be safe and 35 so there is room for growth.
