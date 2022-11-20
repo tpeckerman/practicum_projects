@@ -9,7 +9,7 @@
 | --- | --- |
 |*rest_data.csv* | Data on food establishments in Los Angeles |
 |*Market Research on Los Angeles Restaurants.ipynb* | Analysis of trends in eateries in Los Angeles. |
-|*cafe_market_research-presentation.pdf*| PDF version of the final pptx presentation of summarized findings |
+|*Robot Run Café in LA.pdf*| PDF version of the final pptx presentation of summarized findings |
 
 ## Project Description
 
