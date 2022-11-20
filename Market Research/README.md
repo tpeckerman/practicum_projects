@@ -8,7 +8,7 @@
 | File name | Description |
 | --- | --- |
 |[rest_data.csv](https://github.com/tpeckerman/practicum_projects/blob/main/Market%20Research/rest_data.csv)         | Data on food establishments in Los Angeles |
-|cafe_market_research.ipynb         | Analysis of trends in eateries in Los Angeles. |
+|[cafe_market_research.ipynb](https://github.com/tpeckerman/practicum_projects/blob/main/Market%20Research/Market%20Research%20on%20Los%20Angeles%20Restaurants.ipynb)         | Analysis of trends in eateries in Los Angeles. |
 |cafe_market_research-presentation.pdf           | PDF version of the final pptx presentation of summarized findings |
 
 ## Project Description
