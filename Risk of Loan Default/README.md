@@ -1,6 +1,6 @@
 # Risk of Loan Default
 
-:point_right: View the **notebook** [here](https://nbviewer.org/github/tpeckerman/practicum_projects/blob/main/Market%20Research/Market%20Research%20on%20Los%20Angeles%20Restaurants.ipynb) using nbviewer.
+:point_right: View the **notebook** [here](https://nbviewer.org/github/tpeckerman/practicum_projects/blob/49f080cc3654af0da2519ebcf0354b15766c30e7/Risk%20of%20Loan%20Default/risk_of_loan_defaults.ipynb) using nbviewer.
 
 
 ## In this folder
