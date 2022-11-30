@@ -1,4 +1,4 @@
-# Market Research on Restaurants in Los Angeles
+# Risk of Loan Default
 
 :point_right: View the **notebook** [here](https://nbviewer.org/github/tpeckerman/practicum_projects/blob/main/Market%20Research/Market%20Research%20on%20Los%20Angeles%20Restaurants.ipynb) using nbviewer.
 
@@ -20,45 +20,38 @@ The bank's loan division is seeking to build an internal credit scoring system t
 |Library| Version|
 | --- | --- |
 |pandas|1.3.1|
+|seaborn|11.0|
+|matplotlib.pyplot|3.3.2|
+|numpy|1.19.2|
+
   
 ## Project Overview
 
 ### Data processing
-*(Suspected) Errored data* 
-- Replaced eateries with one seat to Null for the <code>num_seats</code> column.
-- Bakeries with one location were changed to False for the <code>chain</code> column.
-- Eateries for which there was a discrepency between the <code>chain</code> value by <code>address</code>, were all changed to True for <code>chain</code>.
-- Eateries with the same <code>name</code> at the same <code>address</code>, but different <code>num_seats</code> were changed to the mean.
-- Eateries with more than two values in the <code>address</code> column were changed to/kept as True for the <code>chain</code> column.
-- <code>name</code> and <code>address</code> values tweaked to be more uniform to identify hidden dupplicates. 
-
-*Irrelevant data*
-- Removed grocery stores as they are not eateries (but kept eateries within grocery stores).
+*Cleaning and (Suspected) Errored data* 
+- All values for the <code>education</code> field were changed to lowercase.
+- <code>Education_id</code> and corresponding <code>education</code> values more switched arount to be intuitively related.
+- Rows with neagtive and 20 values for the <code>children</code> column were deleted.
+- All values where <code>days_employed</code> == 'retiree' were changed to 0.
+- All values where <code>dob_years</code> == 0 were replaced by the mean of the column.
+- The value 'XNA' for the <code>gender</code> column was changed to 'unkown' (one occurance).
+- Rows where <code>income_type</code> == 'unemployed', 'student', 'entrepreneur', and 'paternity / maternity leave' were dropped (six occurances).
 
 *Missing data*
-- The three Null values in the <code>chain</code> column were changed to False based on Google research.
+- Used the median income of the <code>education</code> and <code>age_group</code> columns grouped to populate the missing values for <code>total_income</code> (found in <code>new_income</code>).
 
 *Duplicate data*
-- No full duplicates were identified. Duplicate rows were identified (and dropped) when managing missing & errored data.
+- 71 duplicate rows were dropped.
 
-**<div align="center">97% of data remains.</div>**
+**<div align="center">99% of data remains.</div>**
 
 ### Exploratory analysis
 *General features*
-- Proportional breakdown by <code>type</code> of establishment (restaurant, bakery, fast food, pizza, cafe).
-- Proportional breakdown by the <code>chain</code> column (True vs. False); further broken down by <code>type</code>.
-- Correlation between number of locations (<code>address</code>) and <code>chain</code>.
-- Correlation between the <code>chain</code> and <code>num_seats</code> columns.
-- Correlation between the <code>type</code> and <code>num_seats</code> columns.
-
-*Location specific*
-- Identification of top 10 streets with the most eateries on them.
-- Seat count distributions of the top 10 streets with the most eateries.
-- Identificatopm of streets containing only one eatery.
-
+- Categorized data 3 ways and tested for correlation with defaulting on a loan:
+  1. <code>family_status</code> and <code>children</code> combined (2 person income & children, 2 person income & no children, 1 person income & children, 1 person income & no children).
+  2. <code>purpose</code> (property, education, wedding, car)
+  3. <code>new_income</code> by quartile ('low', 'medium low', 'medium high', and 'high').
+ 
 ### Conclusion
-1. <ins>Type</ins>: The market is not saturated by Cafes which represent between 4% to 18% of the market (the latter when not considering Restaurants). The percentage of the market is around the same for the top 10 streets. While you would be competing with big chains and their heavy resources, the culture trend is moving more towards new age or bohemian specialty cafes. Also, even as the novelty wears off, the convenience of quick service, delicious food, and unique atmosphere would help maintain business.
-
-2. <ins>Location</ins>: On one of the top 10 streets as this would be the lowest risk and most visible to the potential consumers.
-
-3. <ins>Number of seats</ins>: Between 20 and 35; 20 because that would be safe and 35 so there is room for growth.
+1. Clients with no children are least likely to default, followed by the potential for a 2 income household.
+2. Clients who took out a loan to finance their property or wedding are signiciantly less likely to default than clients who took out a loan for a car or education. This may be because property is an asset that often increasing in value and wedding loans can be paid back with monetary gifs from the wedding.
