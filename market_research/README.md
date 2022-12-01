@@ -1,7 +1,7 @@
 # Market Research on Restaurants in Los Angeles
 
-:point_right: View the **notebook** [here](https://nbviewer.org/github/tpeckerman/practicum_projects/blob/main/Market%20Research/Market%20Research%20on%20Los%20Angeles%20Restaurants.ipynb](https://nbviewer.org/github/tpeckerman/practicum_projects/blob/main/market_research/market_research_on_la_restaurants.ipynb) using nbviewer.\
-:point_right: View the **presentation** [here](https://github.com/tpeckerman/practicum_projects/blob/main/Market%20Research/Robot%20Run%20Caf%C3%A9%20in%20LA.pdf).
+:point_right: View the **notebook** [here](https://nbviewer.org/github/tpeckerman/practicum_projects/blob/main/market_research/market_research_on_la_restaurants.ipynb) using nbviewer.\
+:point_right: View the **presentation** [here](https://github.com/tpeckerman/practicum_projects/blob/main/market_research/robot_run_caf%C3%A9_la.pptx)(https://github.com/tpeckerman/practicum_projects/blob/main/Market%20Research/Robot%20Run%20Caf%C3%A9%20in%20LA.pdf).
 
 ## In this folder
 
