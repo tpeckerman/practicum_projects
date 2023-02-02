@@ -87,3 +87,20 @@ After exceeding the package limits:
 |matplotlib| 3.3.2 |
 |scipy|1.5.2|
 |math|3.8.5|
+
+##Conclusion
+1. Popularity:
+- 68% of customers prefer the Surf plan to the Ultimate plan.
+
+2. Exceeding free limits:
+- More than 1/2 of the bills for the surf plan exceed the base fee, accounting for nearly a quarter of the users of this plan.
+- In fact, nearly 1/2 of surf users even exceeded the ultimate base fee at least once accounting for 1/4 of all surf bills.
+- On the other hand, few users of the ultimate plan are going over their base fees each month.
+- Overal annual revenue in 2018 was 45% higher from the surf plan. However, revenue per user was 16% higher for the ultimate plan.
+
+3. The difference in revenue is statistically significant:
+- More users are on the surf plan which is what accounts for the higher revenue, but the ultimate plan generates more revenue.
+- Possibly pointing out to the surf users who have gone over their limit once, immediately following that event, that they may benefit from the ultimate plan, could encourage them to switch to the plan that is more profitable for the company.
+- User activity was only mildly guided by their plan. Median and means for the Ultimate plan were only slightly higher than for the Surf plan for call duration and mb used; for messages the differences between the 2 plans was slightly more significant.
+
+4. The difference between the average revenue from users in NY-NJ area vs. other regions is not statistically significant.
