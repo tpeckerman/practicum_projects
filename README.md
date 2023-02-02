@@ -7,6 +7,8 @@ Each folder represents a separate project and contains a detailed README file de
 
  |Unit|Project Name|Description|Libraies|
  | --- | --- | --- |
- |Business Analysitics|Market Research on Los Angeles Eateries|Explored features of current Los Angeles eateries to understand how a proposed robot-run café will fit in the current market when it loses its novelty.|*pandas, numpy, string, seaborn, matplotlib, plotly.graph_objects, plotly.express, usaddress, json*|
+ |Exploratory Analysis|Risk of Loan Default|Characteristics of loans that default|*pandas, numpy, matplotlib,*|
  |Statistical Analysis|Prepaid Phone Plans|Comparison of user usage and revenue for two prepaid phone plans.|*pandas, numpy, seaborn, matplotlib, scipy, math*|
- ||||
+ |Business Analysitics|Market Research on Los Angeles Eateries|Explored features of current Los Angeles eateries to understand how a proposed robot-run café will fit in the current market when it loses its novelty.|*pandas, numpy, string, seaborn, matplotlib, plotly.graph_objects, plotly.express, usaddress, json*|
+ 
+
