@@ -6,11 +6,11 @@
 
 | File name | Description |
 | --- | --- |
-|*megaline_calls.csv* | Data on food establishments in Los Angeles |
-|*megaline_internet.csv* | |
-|*megaline_messages.csv*| |
-|*megaline_plans.csv*| |
-|*megaline_users.csv*| |
+|*megaline_calls.csv* | Data on user phone calls |
+|*megaline_internet.csv* |Data on user internet use |
+|*megaline_messages.csv*| Data on user messaging|
+|*megaline_plans.csv*| Data on phone plans|
+|*megaline_users.csv*| Data on users |
 |*prepaid_phone_plans_analyis.ipynb* | Comparison of two prepaid phone plans |
 
 
@@ -86,3 +86,4 @@ After exceeding the package limits:
 |seaborn| 0.11.2|
 |matplotlib| 3.3.2 |
 |scipy|1.5.2|
+|math|3.8.5|
