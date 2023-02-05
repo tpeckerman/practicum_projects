@@ -1,6 +1,6 @@
 # Prepaid Phone Plans (focus on statistical analysis)
 
-:point_right: View the **notebook**[here]()
+:point_right: View the **notebook** [here](https://nbviewer.org/github/tpeckerman/practicum_projects/blob/main/prepaid_phone_plans/prepaid_phone_plans_statistical_analysis.ipynb)
 
 ## In this folder
 
